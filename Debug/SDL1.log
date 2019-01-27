@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\sdl\sdlproject-1\sdl1\source.cpp(153): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  SDL1.vcxproj -> C:\SDL\SDLproject-1\SDL1\Debug\SDL1.exe
