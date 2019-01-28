@@ -10,6 +10,7 @@
 #include <vector>
 #include <array>
 #include <SDL_image.h>
+#include <fstream>
 
 auto errthrow = [](const std::string &e) {
 	std::string errstr = e + " : " + SDL_GetError();
@@ -143,6 +144,25 @@ int main(int argc, char **argv) {
 
 	obstacle obstacle;
 
+	SDL_RWops* file = SDL_RWFromFile("top_score.file", "r+b");
+
+	float topScore = 0;
+
+	if (file == NULL) {
+		file = SDL_RWFromFile("top_score.file", "w+b");
+		if (file != NULL) {
+			SDL_RWwrite(file, &topScore, sizeof(int), 1);
+			SDL_RWclose(file);
+		}
+	}
+	else {
+		SDL_RWread(file, &topScore, sizeof(int), 1);
+		SDL_RWclose(file);
+	}
+
+
+	
+	float score = 0;
 	float gameTime = 0;
 	float interval = 1;
 	char data[50];
@@ -180,6 +200,7 @@ int main(int argc, char **argv) {
 			interval += rand() % 2 + 3;
 			obstacle.position = pos_t{ 800, 350 };
 			obstacle.velocity = pos_t{ -(double)(rand() % 4 + 22), 0 };
+			
 		}
 
 
@@ -188,6 +209,7 @@ int main(int argc, char **argv) {
 		if (checkCollision({ (int)player.position[0], (int)player.position[1], 128, 128 }, { (int)obstacle.position[0], (int)obstacle.position[1], 128, 128 }) && !player.dead) { 
 			player_texture = load_texture(renderer, "sheep_dead.png");
 			player.dead = true;
+			score = (int)gameTime;
 		}
 
 		SDL_Event event;
@@ -218,8 +240,8 @@ int main(int argc, char **argv) {
 		SDL_Point center = { 64, 64 }; 
 		SDL_RenderCopyEx(renderer.get(), obstacle_texture.get(), NULL, &dstrect, 0, &center, SDL_FLIP_NONE);
 
-		 dstrect = { (int)player.position[0], (int)player.position[1], 128, 128 }; 
-		 center = { 64, 64 }; 
+		dstrect = { (int)player.position[0], (int)player.position[1], 128, 128 }; 
+		center = { 64, 64 }; 
 		SDL_RenderCopyEx(renderer.get(), player_texture.get(), NULL, &dstrect, 0, &center, SDL_FLIP_NONE); 
 
 		dstrect = { 0, 475, 800, 125 }; 
@@ -242,8 +264,33 @@ int main(int argc, char **argv) {
 			SDL_QueryTexture(texture, NULL, NULL, &texW, &texH); 
 			dstrect = { 400 - texW / 2, 200 - texH / 2, texW, texH };
 			SDL_RenderCopy(renderer.get(), texture, NULL, &dstrect);
+			
+			sprintf_s(data, "Score: %d", (int)score);
+			surface = TTF_RenderText_Solid(font, data, color);
+			texture = SDL_CreateTextureFromSurface(renderer.get(), surface);
+			SDL_QueryTexture(texture, NULL, NULL, &texW, &texH);
+			dstrect = { 400 - texW / 2, 100 - texH / 2, texW, texH };
+			SDL_RenderCopy(renderer.get(), texture, NULL, &dstrect);
+
+			sprintf_s(data, "Top score: %d", (int)topScore);
+
+			if (score > topScore) {
+				topScore = score;
+				sprintf_s(data, "New top score: %d", (int)topScore);
+				SDL_RWops* file = SDL_RWFromFile("top_score.file", "w+b");
+				SDL_RWwrite(file, &topScore, sizeof(int), 1);
+				SDL_RWclose(file);
+			}
+
+			surface = TTF_RenderText_Solid(font, data, color);
+			texture = SDL_CreateTextureFromSurface(renderer.get(), surface);
+			SDL_QueryTexture(texture, NULL, NULL, &texW, &texH);
+			dstrect = { 400 - texW / 2, 525 - texH / 2, texW, texH };
+			SDL_RenderCopy(renderer.get(), texture, NULL, &dstrect);
 			SDL_DestroyTexture(texture);
 			SDL_FreeSurface(surface);
+
+
 		}
 
 		SDL_RenderPresent(renderer.get()); 

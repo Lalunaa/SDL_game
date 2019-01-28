@@ -1,0 +1,64 @@
+﻿'SDL1.exe' (Win32): Loaded 'C:\SDL\SDLproject-1\SDL1\Debug\SDL1.exe'. Symbols loaded.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\SDL\SDLproject-1\SDL1\SDL2_ttf.dll'. Module was built without symbols.
+'SDL1.exe' (Win32): Loaded 'C:\SDL\SDLproject-1\SDL1\libfreetype-6.dll'. Module was built without symbols.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\SDL\SDLproject-1\SDL1\zlib1.dll'. Module was built without symbols.
+'SDL1.exe' (Win32): Loaded 'C:\SDL\SDLproject-1\SDL1\SDL2.dll'. Module was built without symbols.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\advapi32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\user32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\lpk.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\usp10.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\imm32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ole32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\oleaut32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\setupapi.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cfgmgr32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\devobj.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shell32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shlwapi.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\version.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmm.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\SDL\SDLproject-1\SDL1\SDL2_image.dll'. Module was built without symbols.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\api-ms-win-core-localization-l1-2-0.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\api-ms-win-core-processthreads-l1-1-1.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\api-ms-win-core-file-l1-2-0.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\api-ms-win-core-timezone-l1-1-0.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\api-ms-win-core-file-l2-1-0.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\api-ms-win-core-synch-l1-2-0.dll'. Cannot find or open the PDB file.
+The thread 0x1a0c has exited with code 0 (0x0).
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\uxtheme.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\DpOFeedb.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\userenv.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\profapi.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dwmapi.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Program Files (x86)\Hewlett-Packard\HP ProtectTools Security Manager\Bin\DpOSet.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\clbcatq.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\msctf.dll'
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ole32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\ole32.dll'
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\msctf.dll'
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\msctf.dll'
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\d3d9.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\d3d8thk.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\igdumdim32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\igdusc32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\SDL\SDLproject-1\SDL1\libpng16-16.dll'. Module was built without symbols.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\hid.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wintrust.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\crypt32.dll'. Cannot find or open the PDB file.
+'SDL1.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msasn1.dll'. Cannot find or open the PDB file.
